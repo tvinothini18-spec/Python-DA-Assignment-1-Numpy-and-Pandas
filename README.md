@@ -1,19 +1,34 @@
-This directory includes a few sample datasets to get you started.
+NumPy and Pandas Assignment
+Overview
 
-*   `california_housing_data*.csv` is California housing data from the 1990 US
-    Census; more information is available at:
-    https://docs.google.com/document/d/e/2PACX-1vRhYtsvc5eOR2FWNCwaBiKL6suIOrxJig8LcSBbmCbyYsayia_DvPOOBlXZ4CAlQ5nlDD8kTaIDRwrN/pub
+This assignment demonstrates basic NumPy and Pandas operations using temperature and transaction datasets.
 
-*   `mnist_*.csv` is a small sample of the
-    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
-    described at: http://yann.lecun.com/exdb/mnist/
+Topics Covered
 
-*   `anscombe.json` contains a copy of
-    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
-    was originally described in
+NumPy
+Creating 1D and 2D arrays
+Inspecting shape, data type, and size
+Array calculations and statistics
+Indexing and slicing
+Celsius to Fahrenheit conversion
+Pandas Series
+Creating Series with custom indices
+loc and iloc indexing
+Boolean filtering
+Modifying and removing values
+CGPA calculation
+Pandas DataFrame
+Creating a transaction DataFrame
+Data exploration using head(), tail(), shape, and dtypes
+Column selection and filtering
+Value counts and unique values
+Grouping and calculating mean values
+Adding, modifying, and deleting data
+Tools Used
+Python
+NumPy
+Pandas
+Jupyter Notebook / Google Colab
+Conclusion
 
-    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
-    Statistician. 27 (1): 17-21. JSTOR 2682899.
-
-    and our copy was prepared by the
-    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).
+The assignment provides practical experience with NumPy arrays and Pandas data structures for basic data analysis and manipulation.
